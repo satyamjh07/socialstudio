@@ -1,0 +1,105 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+.content {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-gap: 2rem;
+}
+/* styling feed area */
+.feed {
+  background: linear-gradient(rgb(159, 248, 248), rgb(78,175,254) );
+}
+.feed-content {
+  margin: 3rem;
+  border: 1px solid black;
+}
+.heading {
+  border: 1px solid gray;
+  margin-bottom: 0px;
+  padding: 1rem;
+  text-align: center;
+  line-break: auto;
+}
+.para {
+  border: 1px solid gray;
+  margin-top: 0px;
+  padding: 1rem;
+  margin-bottom: 0px;
+  text-align: center;
+  line-break: auto;
+}
+.btn-primary{
+  font-size: 1rem;
+  background: transparent;
+  color: black;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  transition-duration: 1s;
+  margin-bottom: 1rem;
+  margin-top: 0px;
+  margin-left: 1rem;
+  padding: 0.5rem;
+}
+.btn-primary:hover{
+  background-color: black;
+  border: 1px solid antiquewhite;
+  color: white;
+}
+
+
+
+
+
+/* styling community area */
+.community {
+  background-color: silver;
+}
+
+
+
+
+
+/* styling profile area */
+.profile {
+  background-color: gold;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  position: fixed;
+  margin: 1rem;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  transition-duration: 1s;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+.button:hover,
+a:hover {
+  opacity: 0.7;
+}
