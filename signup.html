@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Entrance</title>
+    <link rel="stylesheet" href="../CSS-Pc/signup.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="login">
+        <form action="../php/Signup.php" class="form" name="signupForm" onsubmit="return checked()" method="post">
+          <h2 style="margin: 1rem" align="center">Sign Up</h2>
+          <div class="input-container">
+            <i class="fa fa-user icon"></i>
+            <input
+              class="input-field"
+              type="text"
+              placeholder="Username"
+              name="usrnm"
+              id="usrnm"
+            />
+          </div>
+
+          <div class="input-container">
+            <i class="fa fa-envelope icon"></i>
+            <input
+              class="input-field"
+              type="email"
+              placeholder="Email"
+              name="email"
+              id="email"
+            />
+          </div>
+
+          <div class="input-container">
+            <i class="fa fa-key icon"></i>
+            <input
+              class="input-field"
+              type="password"
+              placeholder="Password"
+              name="psw"
+              id="pass"
+            />
+          </div>
+          <label for="" style="font-size: 0.8rem;">
+          <input type="checkbox" id="checkbox">I've read and agree to <span style="color: rgb(48, 48, 220); text-decoration: underline;">Terms & Conditions</span></label>
+
+          <button type="submit" onclick="storeUserData()" class="btn">CREATE ACCOUNT</button>
+          <p class="para">
+            Already Have Account?
+            <label for="" class="label-login">login</label>
+          </p>
+        </form>
+      </div>
+      <div class="quote">
+        <h1 class="head-primary">Glad To See You!</h1>
+        <h4 class="sub-quote">"Step into a world of possibilities. Sign in and let the adventure begin!"</h4>
+      </div>
+    </div>
+  </body>
+  <script src="../Script/signup.js"></script>
+</html>
